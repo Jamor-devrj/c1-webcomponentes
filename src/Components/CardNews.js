@@ -46,21 +46,21 @@ class CardNews extends HTMLElement{
     styles(){
         const style = document.createElement("style");
         style.textContent = `        
-            .card{
-                box-shadow: 12px 13px 35px -10px rgba(0,0,0,0.6);
-                -webkit-box-shadow: 12px 13px 35px -10px rgba(0,0,0,0.6);
-                -moz-box-shadow: 12px 13px 35px -10px rgba(0,0,0,0.6);
+            .card{                
+                box-shadow: 2px 4px 10px -4px rgba(0,0,0,0.63);
+                -webkit-box-shadow: 2px 4px 10px -4px rgba(0,0,0,0.63);
+                -moz-box-shadow: 2px 4px 10px -4px rgba(0,0,0,0.63);                
                 width: 80%; 
                 display: flex;
                 flex-direction: row;   
-                justify-content: space-between;
+                justify-content: space-between;            
             }
 
             .card_left{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                padding: 10px;
+                padding: 10px;                
             }
 
             .card_left > span {
